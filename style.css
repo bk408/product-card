@@ -11,6 +11,7 @@ body {
   align-items: center;
  
   background-color: rgb(27, 27, 32);
+  
 }
 
 .container {
@@ -27,22 +28,27 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-background: rgba(255, 245, 238, 0.744);
+background: linear-gradient(to top, royalblue 80px,  pink 2px);
 
 }
 
 .user-img img {
   border: none;
-  border-radius: 40% 60% 50% 50%;
+  border-radius: 60% ;
   width: 80px;
   height: 80px;
 }
 
-.user-name {
-  margin: 8px;
+.user-name h4{
+  margin-top: 8px;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(229, 58, 39);
+}
+
+.user-name p{
+  font-size: smaller;
+  color: rgb(76, 129, 182)
 }
 
 .social-icons {
@@ -54,7 +60,7 @@ background: rgba(255, 245, 238, 0.744);
 }
 
 .user-contact button {
-  padding: 10px;
+  padding: 10px 12px;
   margin: 8px;
   cursor: pointer;
   border-radius: 8px;
